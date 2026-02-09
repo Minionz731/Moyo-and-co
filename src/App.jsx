@@ -12,7 +12,7 @@ export default function MoyoEventsWebsite() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const whatsappNumber = '+27730634322';
+  const whatsappNumber = '+27670095574';
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^0-9]/g, '')}?text=Hi%20Moyo%20%26%20CO%20Events!%20I'd%20like%20to%20enquire%20about%20your%20services.`;
 
   return (
@@ -204,7 +204,7 @@ export default function MoyoEventsWebsite() {
                       backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E\")"
                     }}
                   ></div>
-                  <img src="/assets/bartending.png" alt="Bartending Services" className="relative z-10 w-full h-full object-contain group-hover:scale-110 transition duration-300" />
+                  <img src="/assets/Bartending.png" alt="Bartending Services" className="relative z-10 w-full h-full object-contain group-hover:scale-110 transition duration-300" />
                 </div>
                 <div className="md:w-3/5 p-8">
                   <h4 className="text-3xl font-bold text-teal-800 mb-4">Bartending Services</h4>
